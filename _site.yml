@@ -1,0 +1,14 @@
+name: "Visual_project_blog"
+title: "My Blog"
+description: |
+  My Blog
+output_dir: "_site"
+navbar:
+  right: 
+    - text: R Resource
+      href: "https://isss608.netlify.app/r"
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
